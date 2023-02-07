@@ -4,7 +4,7 @@ public class RelayRace {
 
     public static int RUNNER_NUMBER = 4;
 
-    public static synchronized void main(String[] args) {
+    public static void main(String[] args) {
         Runner[] runners = new Runner[RUNNER_NUMBER];
         for (int i = 0; i < RUNNER_NUMBER; i++) {
             runners[i] = new Runner(i);
